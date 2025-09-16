@@ -8,21 +8,24 @@ ui <- dashboardPage(
   skin = "black",
   
   # ----HEADER----
-  dashboardHeader(title = "Two Carhops Simulation"),
+  dashboardHeader(
+    titleWidth = 300,
+    title = tags$span(style = "font-size: 22px;", "Two Carhops Simulation")
+  ),
   
   # ----SIDEBAR----
   dashboardSidebar(
     sliderInput(inputId = "n_customer",
                 label = "Jumlah Customer:",
-                min = 5,
-                max = 100,
-                value = 20),
+                min = 1,
+                max = 128,
+                value = 32),
     
     sliderInput(inputId = "seed_value",
                 label = "Randomness Seed:",
                 min = 1,
-                max = 100,
-                value = 42),
+                max = 128,
+                value = 32),
     
     hr(),
     
