@@ -66,7 +66,7 @@ Simulasi ini berbasis **discrete-event** dengan parameter probabilitas berikut:
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/Ryslam/ui.ac.id-two-carhops-simulation.git](https://github.com/Ryslam/ui.ac.id-two-carhops-simulation.git)
+git clone https://github.com/Ryslam/ui.ac.id-two-carhops-simulation.git
 cd ui.ac.id-two-carhops-simulation
 ```
 
