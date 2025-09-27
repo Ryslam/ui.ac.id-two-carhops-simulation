@@ -1,11 +1,9 @@
-# Simulasi Sistem Antrian Dua Server (Two Carhops)
+# Simulasi Sistem Antrian Dua Server Restoran Drive-in
 
 ![Dashboard Preview](https://raw.githubusercontent.com/Ryslam/ui.ac.id-two-carhops-simulation/main/assets/dashboard-screenshot.png)
 
 **Dashboardnya bisa diakses di link berikut:**
 ➡️ [https://ardian.shinyapps.io/ui-ac-id-two-carhops-simulation/](https://ardian.shinyapps.io/ui-ac-id-two-carhops-simulation/)
-
----
 
 ## 📜 Deskripsi
 Aplikasi **Shiny** ini dirancang untuk melakukan simulasi dan analisis sistem antrian dengan dua server, yang diberi nama **Ali** dan **Badu**. Kedua server memiliki kecepatan layanan yang berbeda.
@@ -16,8 +14,6 @@ Aplikasi ini membantu menjawab pertanyaan-pertanyaan kunci dalam manajemen opera
 - Strategi mana yang paling efektif untuk meminimalkan waktu tunggu pelanggan?
 - Bagaimana setiap strategi memengaruhi beban kerja dan waktu menganggur (*idle time*) masing-masing server?
 - Bagaimana hasil simulasi berubah dengan jumlah pelanggan dan variasi acak yang berbeda?
-
----
 
 ## ✨ Fitur Utama
 - **Perbandingan Tiga Skenario**:
@@ -41,8 +37,6 @@ Aplikasi ini membantu menjawab pertanyaan-pertanyaan kunci dalam manajemen opera
 - **Parameter Transparan**:
   Probabilitas untuk waktu antar-kedatangan dan waktu layanan ditampilkan di sidebar untuk referensi.
 
----
-
 ## ⚙️ Model Simulasi
 Simulasi ini berbasis **discrete-event** dengan parameter probabilitas berikut:
 
@@ -64,13 +58,11 @@ Simulasi ini berbasis **discrete-event** dengan parameter probabilitas berikut:
   - 5 menit: 20%
   - 6 menit: 20%
 
----
-
-## 🚀 Instalasi dan Menjalankan Aplikasi
+## 🚀 (Opsional) Jalankan Aplikasi Secara Lokal
 
 ### Prasyarat
 - Sudah menginstal **R**
-- Disarankan menggunakan **RStudio Desktop**
+- Sudah menginstal **RStudio Desktop**
 
 ### 1. Clone Repository
 ```bash
@@ -91,14 +83,4 @@ shiny::runApp('app.R')
 atau ctrl/command + shift + enter/return.
 
 ---
-
-## 💻 Teknologi yang Digunakan
-- **Bahasa**: R
-- **Framework**: Shiny
-- **Packages**:
-  - `shinydashboard`: Untuk membangun tata letak dashboard.
-  - `DT`: Untuk membuat tabel data yang interaktif.
- 
----
-
 Jazakallah khairan, Ardian.
