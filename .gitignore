@@ -1,3 +1,5 @@
 rsconnect/
+
 .Rproj.user
-two-carhos-simulation.Rproj
+.Rhistory
+.RData
